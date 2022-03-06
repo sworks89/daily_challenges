@@ -1,8 +1,3 @@
-actor {
-    public func greet(name : Text) : async Text {
-        return "Hello, " # name # "!";
-    };
-};
 import Nat "mo:base/Nat";
 import Array "mo:base/Array";
 
